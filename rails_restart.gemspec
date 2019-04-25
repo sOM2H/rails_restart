@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Gem for restart rails application.}
   spec.description   = %q{Gem for restart rails application.}
   spec.homepage      = "https://github.com/sOM2H/rails_restart"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
