@@ -23,7 +23,7 @@ Or install it yourself as:
 ```ruby
 Rails::restart
 
-# and with parameters
+# or with parameters
 
 Rails::restart('-e production')
 ```
