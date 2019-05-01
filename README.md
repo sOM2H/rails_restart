@@ -25,5 +25,5 @@ Rails::restart
 
 # or with parameters
 
-Rails::restart('-e production')
+Rails::restart('-e production &')
 ```
